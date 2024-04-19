@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="css/font-awesome.css" rel="stylesheet"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"> 
+
+</head>
+<body>
+ <div id="header">
+  <div class="container">
+    <nav>
+        <img src="/images/img.png" alt="" class="logo">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+    </nav>
+   <div class="h-text">
+   <p>Web Developer</p>
+   <h1>Hi, I am <span>Kanishaka</span> Bhandari <br> from India</h1>
+</div>
+
+<!-- -----------------About---------------- -->
+<div id="about">
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="/images/Ss.png" alt="">
+        </div>
+        <div class="about-col-2"> 
+            <h1 class="subtitle"><i class="fa-solid fa-seedling"></i>About Me</h1> 
+        <p>Passionate MERN Stack Developer Intern proficient in MongoDB, Express.js, React.js, and Node.js, adept at crafting responsive, user-friendly websites. Experienced in front-end technologies such as HTML, CSS, and JavaScript, with a keen eye for design and detail. Committed to continuous learning and eager to implement best practices in Full Stack Development. Proactive problem-solver, constantly seeking innovative solutions to challenges. Open to networking and excited about discussing opportunities in the ever-evolving tech landscape.</p>
+        
+        <div class="tabs">
+            <p class="tab-link active-link" onclick="opentab('Skills')">Skills</p>
+            <p class="tab-link" onclick="opentab('Experience')">Experience</p>
+            <p class="tab-link" onclick="opentab('Education')">Education</p>
+            <p class="tab-link" onclick="opentab('Certifications')">Certifications</p>
+
+        </div>
+        <div class="tab-content active-tab" id="Skills">
+            <ul>
+                <li>- MongoDB, Express.js, React.js, Node.js (MERN stack)</li>
+                <li>- JavaScript </li>
+                <li>- HTML/CSS</li>
+                <li>- Bootstrap</li>
+                <li>- SQL Server</li>
+                <li>- RESTful APIs</li>
+                <li>- Package Managers (npm)</li>
+                <li>- Problem-Solving</li>
+                <li>- Communication & Collaboration</li>
+            </ul>
+        </div>
+        <div class="tab-content" id="Experience">
+            <ul>
+                <li><span><b>December 2023 – Current</b></span> <br>MERN Stack Intern at Keen Infotech</li>
+                <li><span><b>April 2024</b> </span> <br>Web Development Internship at CodeAlpha</li>
+            </ul>
+        </div>
+        <div class="tab-content" id="Education">
+            <ul>
+                <li><span><b>MBA - IT (Information Technology)</b></span> <br>Amity University |Current</li>
+                <li><span><b>BCom </span></b><br>JRN Rajasthan Vidyapith University |2020-21</li>
+                <li><span><b>12th</span></b><br>Central Academy Sr. Sec. School |2018-19</li>
+                <li><span><b>10th</span></b><br>Central Academy Sr. Sec. School |2016-17</li>
+            </ul>
+        </div>
+        <div class="tab-content" id="Certifications">
+            <ul>
+                <li><span><b>MERN Full-Stack Web-Development Course</b></span><br> Keen Infotech Institute |2023</li>
+                <li><span><b>Course on Rajasthan State Certificate of Information Technology</b></span><br>RSCIT |2021</li>
+                <li><span><b>ICITSS - Information technology and Orientation Course</b></span><br> Institute of Chartered Accountant of India (ICAI)|2020</li>
+            </ul>
+        </div>
+
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- -----------------Services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle"> <i class="fa-solid fa-handshake"></i> My Services </h1>
+        <div class="service-list">
+        <div>
+            <h1><i class="fa-solid fa-angles-right"></i> Website Development</h1>
+            <p>Building websites from scratch or using various platforms and technologies to create functional and visually appealing web pages. Coding in languages such as HTML, CSS, and JavaScript to design and develop responsive websites, optimized for speed, compatible across different browsers and devices.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div>
+            <h1><i class="fa-solid fa-angles-right"></i> Application Development</h1>
+            <p>As a MERN stack developer, I build dynamic web applications using MongoDB, Express.js, React.js, and Node.js. Creating anything from contact forms to complex e-commerce platforms or social networks, harnessing the stack's power for scalability, real-time processing, and engaging user interfaces.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div>
+            <h1><i class="fa-solid fa-angles-right"></i> Maintenance and Support</h1>
+            <p> Once a website or web application is launched, it requires ongoing maintenance and support to ensure it remains functional, secure, and up to date. I provide services such as troubleshooting issues, updating content, fixing bugs, implementing security patches, and optimizing performance.
+            </p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+<!-- -----------------Portfolio------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle"><i class="fa-solid fa-book-open-reader"></i> My Portfolio</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="/images/img3.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world. Download from play store</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/img4.jpg" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world. Download from play store</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/img5.jpg" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world. Download from play store</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----------------Contact------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+        <div class="left">
+            <h1 class="subtitle"><i class="fa-solid fa-address-book"></i> Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> kanishkasingh2k@gmail.com</p>
+            <p><i class="fa-solid fa-phone-flip"></i> +91 9929917776</p>
+            <div class="social-media">
+              <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-x-twitter"></i></i></a>
+              <a href="https://github.com/login"><i class="fa-brands fa-github"></i></a>
+            </div>
+           <a href="/images/KB-Resume.pdf" download class="btn btn2">Download CV</a>
+
+        </div>
+        
+        <div class="right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+    </div>
+    <div class="Copyright">
+        <p>Copyright © Kanishaka Bhandari </p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+ </div>
+
+
+ <script>
+    const tablinks = document.getElementsByClassName("tab-link");
+    const tabcontents = document.getElementsByClassName("tab-content");
+     function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+     }
+
+
+
+ </script>
+</body>
+</html>
